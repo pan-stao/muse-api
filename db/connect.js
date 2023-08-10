@@ -6,6 +6,7 @@ const DATA_BASE_NAME = "muse";
 module.exports = function () {
   mongoose.connect(`mongodb://${HOST_NAME}:27017/${DATA_BASE_NAME}`);
 
+  // 设置数据库连接成功
   mongoose.connection.once("open", () => {
     console.log("数据库连接成功");
   });

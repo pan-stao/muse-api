@@ -12,7 +12,6 @@ const userModel = createModel("users", userSchema);
 module.exports = {
   add(data) {
     const userEnity = new userModel(data);
-
     userEnity.save()
   },
   remove() {},
