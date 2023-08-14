@@ -24,8 +24,9 @@
     "koa-views": "^6.2.0"
   },
   "devDependencies": {
+    "jsonwebtoken": "^7.0.1",
     "koa-cors": "^0.0.16",
-    "mongoose": "^7.4.2",
+    "mongoose": "^6.10.0",
     "nodemon": "^1.19.1",
     "request": "^2.88.2",
     "request-promise": "^4.2.6"

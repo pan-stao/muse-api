@@ -9,10 +9,10 @@ const rq = require("request-promise");
 router.prefix("/api/category");
 
 /**
- *  用户注册接口
+ *  分类列表接口
  */
 
-router.post("/register", async (ctx) => {
+router.post("/category", async (ctx) => {
   /**
    * @apiGroup Users
    * @api { post } http://localhost:3000/api/category
